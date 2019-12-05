@@ -32,6 +32,8 @@
     ]
   },
   "dependencies": {
+    "react": "0.0.0-experimental-5faf377df",
+    "react-dom": "0.0.0-experimental-5faf377df",
     "express": "^4.16.4",
     "superagent": "^5.0.2"
   },
@@ -45,10 +47,7 @@
     "babel-jest": "^24.7.1",
     "babel-loader": "^8.0.5",
     "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.12.1",
     "jest": "^24.7.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.2.1"
