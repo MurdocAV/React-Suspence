@@ -1,14 +1,12 @@
 import React from 'react'
-import MainPage from './Home/MainPage'
-import {HashRouter, Route} from 'react-router-dom'
+import CentralView from './CentralView'
+
+// Using client side routing with React-router-dom
 
 class App extends React.Component {
   render () {
     return (
-      <HashRouter>
-        <Header />
-        <Route exact path="/" component={MainPage} />
-      </HashRouter>
+      <h1>Hello React Experimental</h1>
     )
   }
 }

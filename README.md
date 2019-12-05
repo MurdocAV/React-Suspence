@@ -1,8 +1,15 @@
-# React-Suspence
+# Bus-Carpark-Simulator
 
-Trying out react's new data fetching release (22nd November 2019)
+Done it React, will be deployed on GitHub pages by Deceber 02 2019
 
-Avialable in *experimental* mode.
-> Documentation: https://reactjs.org/docs/concurrent-mode-suspense.html
+30 Nov 2019: Created as a test for Accordo Group after the first interview (28/11/19).
 
-TLDR: Allows you to susspend data rendering functions if data needs to be loaded from (ie) an external source.
+## MVP
+
+Get a functional bus to move around a carpark.
+  1. Bus has to be placed in the carpark first.
+  2. Bus can not leave the carpark.
+
+## Strech
+  1. Display user inputs. (Formatted for client)
+  2. Display simple rendering of Bus.

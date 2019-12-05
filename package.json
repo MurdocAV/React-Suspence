@@ -1,17 +1,16 @@
 {
-  "name": "boilerplate-react-webpack",
+  "name": "react-experimental",
   "version": "0.2.2",
   "homepage": "https://murdocav.github.io/home",
-  "description": "A webpack React starter",
+  "description": "A React experimental build for testing upcoming/new features.",
   "repository": "https://github.com/MurdocAV/murdocav.github.io",
   "main": "server/index.js",
   "author": "EDA",
   "license": "ISC",
   "scripts": {
-    "client": "webpack-dev-server --hot --inline",
-    "dev": "node server & webpack --watch",
+    "dev": "node server --watch",
     "server": "node server",
-    "start": "webpack && node server",
+    "start": "node server",
     "test": "jest --watchAll",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
@@ -45,12 +44,8 @@
     "babel-jest": "^24.7.1",
     "babel-loader": "^8.0.5",
     "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.12.1",
     "jest": "^24.7.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.2.1"
+    "react": "0.0.0-experimental-5faf377df",
+    "react-dom": "0.0.0-experimental-5faf377df"
   }
 }

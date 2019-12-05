@@ -1,13 +1,13 @@
-@import url("https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap");
-/* ===============================
+/* ==========================
   Contents:
-    0. Mixins & Variables
-      0.1 Google Fonts
-    1. Globals
-    2. Navigation
-=============================== */
-/* 0. Mixins & Variables */
-/* Google Fonts */
-/* 1. Globals */
-/* 2. Navigation */
+    1. Mixins & Globals
+========================== */
+html {
+  /* Colours are Harley Davidson Orange and Ruby Pink (With varying opacities) */
+  background: linear-gradient(130deg, #dd4814, #e0115f);
+  background-size: 700% 700%;
+  text-align: center;
+  -webkit-animation: AnimationName 90s ease infinite;
+  animation: AnimationName 90s ease infinite;
+}
 /*# sourceMappingURL=style.css.map */
